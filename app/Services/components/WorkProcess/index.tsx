@@ -30,14 +30,14 @@ const WorkProcess = () => {
         <div className='md:col-span-4'>
           <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
             <Image
-              src='/project4.webp'
+              src='/Homepage/OurProjects/project4.webp'
               alt='Project4.webp'
               width={300}
               height={300}
               className='w-full'
             />
             <Image
-              src='/project7.webp'
+              src='/Homepage/OurProjects/project7.webp'
               alt='Project7.webp'
               width={300}
               height={300}

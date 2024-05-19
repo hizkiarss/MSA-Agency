@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import founder from "@/public/About/founder.webp"
+import founder from "@/public/About/founder.jpg"
 
 const OurExperience = () => {
   return (
@@ -37,7 +37,7 @@ const OurExperience = () => {
         <div className='col-span-2 order-3 md:order-1 flex justify-end md:justify-normal '>
           <Image
             src={founder}
-            alt='founder.webp'
+            alt='founder.jpg'
             className='w-[200px] md:w-full'
           />
         </div>
