@@ -99,8 +99,8 @@ const WorkProcess = () => {
                 </p>
                 <p className='text-[12px] md:text-[14px] text-gray-400'>
                   Customize key elements like color palette, typography suite,
-                  and brand patterns to match your brand's personality. Provide
-                  guidance on visual styles and source quality imagery.
+                  and brand patterns to match your brand&#39;s personality.
+                  Provide guidance on visual styles and source quality imagery.
                 </p>
               </div>
 
@@ -191,9 +191,9 @@ const WorkProcess = () => {
                   (1) Discovery & Analysis
                 </p>
                 <p className='text-[12px] md:text-[14px] text-gray-400'>
-                  We consult with you to understand your project's goals and
+                  We consult with you to understand your project&#39;s goals and
                   vision, conducting competitor analysis to identify your
-                  website's unique value proposition.{" "}
+                  website&#39;s unique value proposition.{" "}
                 </p>
               </div>
 

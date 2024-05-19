@@ -18,7 +18,7 @@ const Hero = () => {
         />
         <div className='w-full'>
           <p className='text-[35px] md:text-[55px] tracking-[-2px] leading-[40px] md:leading-[65px] w-full'>
-            We're your partners in elevating brands worldwide, offering
+            We&#39;re your partners in elevating brands worldwide, offering
             comprehensive solutions for web design and branding.
           </p>
         </div>
@@ -36,10 +36,10 @@ const Hero = () => {
             At the core of our agency is a belief in the power of design to
             transform businesses. We combine minimalist aesthetics with bold,
             innovative ideas to create visually striking solutions that leave a
-            lasting impression. Whether you're a startup looking to establish
-            your brand identity or an established business seeking to refresh
-            your online presence, we have the expertise and creativity to bring
-            your vision to life.
+            lasting impression. Whether you&#39;re a startup looking to
+            establish your brand identity or an established business seeking to
+            refresh your online presence, we have the expertise and creativity
+            to bring your vision to life.
           </p>
           <Link
             href='Services#contact'

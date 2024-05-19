@@ -27,8 +27,7 @@ export const TeamDetails = ({
       )}
     >
       {items.map((item, idx) => (
-        <div>
-          {" "}
+        <div key={idx}>
           <Link
             href={item?.link}
             key={item?.link}

@@ -13,7 +13,8 @@ const Cta = () => {
           <div className='col-span-1 order-2 md:order-1 flex flex-col items-center md:items-start'>
             <h2 className='text-[30px] md:text-[55px] tracking-tighter leading-[30px] md:leading-[60px] text-center md:text-start '>
               A 5 minute call, <br />
-              and you'll see the <span className='text-gray-400'>vision</span>.
+              and you&#39;ll see the
+              <span className='text-gray-400'>vision</span>.
             </h2>
             <Link
               href='Services#contact'

@@ -15,7 +15,7 @@ const OurServices = () => {
         </h2>
         <p className='mx-[3px] md:mx-0 tracking-tighter md:tracking-tight text-pretty text-[12px] md:text-[18px] md:text-center '>
           Embark on a Design Journey: Discovering Tailored Solutions Infused
-          with Passion, Precision,and <br /> Purpose to Shape Tomorrow's
+          with Passion, Precision,and <br /> Purpose to Shape Tomorrow&#39;s
           Experiences
         </p>
       </div>

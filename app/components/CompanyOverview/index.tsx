@@ -43,7 +43,7 @@ const CompanyOverview = () => {
                 outcomes are achieved when we work together, leveraging the
                 diverse strengths and perspectives of our team and clients.
                 Customer-centricity guides our approach, as we always put our
-                clients' needs first.
+                clients&#39; needs first.
               </p>
             </div>
           </div>
@@ -122,7 +122,7 @@ const CompanyOverview = () => {
                 MSA Digital Agency Projects
               </h2>
               <p className='text-[8px] leading-[13px] md:leading-5 md:text-[16px]'>
-                At MSA Digital Agency, we've crafted user-friendly websites,
+                At MSA Digital Agency, we&#39;ve crafted user-friendly websites,
                 built robust e-commerce platforms, executed impactful digital
                 marketing campaigns, and developed custom mobile apps for
                 various industries, always focusing on innovation and client
