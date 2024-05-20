@@ -21,8 +21,8 @@ const WhyChooseUs = () => {
         <div className='grid grid-cols border-b-2 border-gray-200 '>
           {WhyChooseUsData.map((e, i) => {
             return (
-              <Card>
-                <WhyChooseUsItems {...e} key={i} />
+              <Card key={i}>
+                <WhyChooseUsItems {...e} />
               </Card>
             )
           })}
