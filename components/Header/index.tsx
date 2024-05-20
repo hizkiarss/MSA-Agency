@@ -6,6 +6,7 @@ import React, { useState } from "react"
 import NavBar from "./NavBar"
 import Image from "next/image"
 import Logo from "@/public/Homepage/logo.svg"
+import Link from "next/link"
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState<boolean>(false)
@@ -19,7 +20,9 @@ const Header = () => {
     >
       <div className='grid grid-cols-4 items-start p-[15px] md:p-[30px] md:grid-cols-3 md:"items-center"'>
         <div className='flex-col gap-4 flex col-span-1 justify-between md:flex-row md:col-span-1 '>
-          <Image src={Logo} alt='Logo.webp' />
+          <Link href='/'>
+            <Image src={Logo} alt='Logo.webp' />{" "}
+          </Link>
           <div className='text-gray-400 text-[10px]'>
             <p>Helsinki</p>
             <p>GMT+2, Working Worldwide</p>
