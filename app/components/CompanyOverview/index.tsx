@@ -9,12 +9,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Image from "next/image"
-import project3 from "@/public/Homepage/OurProjects/project3.webp"
-import project6 from "@/public/Homepage/OurProjects/project6.webp"
+import project3 from "@/public/Homepage/OurProjects/project3.png"
+import project6 from "@/public/Homepage/OurProjects/project6.png"
 import { TeamDetails } from "@/app/Teams/components/TeamDetails"
 import useRandomTeam from "@/hooks/useRandomTeam"
 import Link from "next/link"
 import milestoneDesktop from "@/public/About/milestone.png"
+import Card from "@/components/Card"
 
 const CompanyOverview = () => {
   const { members } = useRandomTeam()
@@ -31,38 +32,42 @@ const CompanyOverview = () => {
         <div className=' items-center px-[15px] md:px-[30px] '>
           <div className='grid grid-cols-2'>
             <div className='col-span-1'></div>
-            <div>
-              <div className='flex'>
-                <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
-                  Value
-                </h2>
-                <p className='text-[10px] md:text-[16px]'>01</p>
+            <Card>
+              <div>
+                <div className='flex'>
+                  <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
+                    Value
+                  </h2>
+                  <p className='text-[10px] md:text-[16px]'>01</p>
+                </div>
+                <p className='text-[8px] md:text-[16px]'>
+                  Collaboration is key to our success, as we believe that the
+                  best outcomes are achieved when we work together, leveraging
+                  the diverse strengths and perspectives of our team and
+                  clients. Customer-centricity guides our approach, as we always
+                  put our clients&#39; needs first.
+                </p>
               </div>
-              <p className='text-[8px] md:text-[16px]'>
-                Collaboration is key to our success, as we believe that the best
-                outcomes are achieved when we work together, leveraging the
-                diverse strengths and perspectives of our team and clients.
-                Customer-centricity guides our approach, as we always put our
-                clients&#39; needs first.
-              </p>
-            </div>
+            </Card>
           </div>
 
           <div className='grid grid-cols-2 '>
             <div>
-              <div className='flex'>
-                <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
-                  Culture
-                </h2>
-                <p className='text-[10px] md:text-[16px]'>02</p>
-              </div>
-              <p className='text-[8px] md:text-[16px]'>
-                Our team operates in a supportive environment where every voice
-                is heard and valued. We prioritize continuous learning to stay
-                ahead in the fast-paced digital world. Transparency and open
-                communication are core to our relationships with clients and
-                within our team.
-              </p>
+              <Card>
+                <div className='flex'>
+                  <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
+                    Culture
+                  </h2>
+                  <p className='text-[10px] md:text-[16px]'>02</p>
+                </div>
+                <p className='text-[8px] md:text-[16px]'>
+                  Our team operates in a supportive environment where every
+                  voice is heard and valued. We prioritize continuous learning
+                  to stay ahead in the fast-paced digital world. Transparency
+                  and open communication are core to our relationships with
+                  clients and within our team.
+                </p>
+              </Card>
             </div>
             <div className='col-span-1'></div>
           </div>
@@ -70,20 +75,22 @@ const CompanyOverview = () => {
           <div className='grid grid-cols-2'>
             <div className='col-span-1'></div>
             <div>
-              <div className='flex'>
-                <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
-                  History
-                </h2>
-                <p className='text-[10px] md:text-[16px]'>03</p>
-              </div>
-              <p className='text-[8px] md:text-[16px]'>
-                Established in 1980, MSA Digital Agency has been a pioneering
-                force in the digital landscape. Starting as a small team with
-                big ideas, we have grown into a renowned agency known for our
-                creative solutions and cutting-edge technology. Our journey from
-                humble beginnings to a leading digital agency is a testament to
-                our dedication and passion for excellence.
-              </p>
+              <Card>
+                <div className='flex'>
+                  <h2 className='text-[35px] md:text-[70px] tracking-tighter mb'>
+                    History
+                  </h2>
+                  <p className='text-[10px] md:text-[16px]'>03</p>
+                </div>
+                <p className='text-[8px] md:text-[16px]'>
+                  Established in 1980, MSA Digital Agency has been a pioneering
+                  force in the digital landscape. Starting as a small team with
+                  big ideas, we have grown into a renowned agency known for our
+                  creative solutions and cutting-edge technology. Our journey
+                  from humble beginnings to a leading digital agency is a
+                  testament to our dedication and passion for excellence.
+                </p>
+              </Card>
             </div>
           </div>
         </div>
@@ -108,16 +115,16 @@ const CompanyOverview = () => {
             <div className='flex justify-center gap-[8px] md:gap-[14px] md:col-span-2'>
               <Image
                 src={project3}
-                alt='project3.webp'
-                className='w-[150px] md:w-[400px] h-fit'
+                alt='project3.png'
+                className='w-[140px] md:w-[400px] h-fit'
               />
               <Image
                 src={project6}
-                alt='project6.webp'
-                className='w-[150px] md:w-[400px] h-fit'
+                alt='project6.png'
+                className='w-[140px] md:w-[400px] h-fit'
               />
             </div>
-            <div className='tracking-tight md:col-span-1 flex flex-col gap-2 md:gap-8 justify-center pl-[18px]'>
+            <div className='tracking-tight md:col-span-1 flex flex-col gap-2 md:gap-8 justify-center md:pl-[18px]'>
               <h2 className='text-[20px] md:leading-10 md:text-[40px] tracking-tighter'>
                 MSA Digital Agency Projects
               </h2>

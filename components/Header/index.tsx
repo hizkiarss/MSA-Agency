@@ -35,7 +35,7 @@ const Header = () => {
               Open for projects in April
             </p>
           </div>
-          <button onClick={toggleMenu}>
+          <button aria-label='burgermenu' onClick={toggleMenu}>
             <div className='size-10 space-y-1.5 relative flex flex-col justify-center'>
               <div
                 className={`w-8 h-[2px] bg-black transition duration-500 ease-in-out ${
@@ -52,7 +52,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`transition-all duration-[1000ms] ${
+        className={`transition-all duration-1000 ${
           isMenuOpen
             ? "max-h-screen opacity-100"
             : "max-h-0 opacity-0 overflow-hidden"

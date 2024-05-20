@@ -12,6 +12,7 @@ import {
   Box,
 } from "@chakra-ui/react"
 import ServiceDetailData from "@/utils/ServicePageData/ServiceDetailData"
+import Card from "@/components/Card"
 
 interface ServiceDetailProps {
   title: string

@@ -1,48 +1,57 @@
+import project1 from "@/public/Homepage/OurProjects/project1.png"
+import project2 from "@/public/Homepage/OurProjects/project2.png"
+import project3 from "@/public/Homepage/OurProjects/project3.png"
+import project4 from "@/public/Homepage/OurProjects/project4.png"
+import project5 from "@/public/Homepage/OurProjects/project5.png"
+import project6 from "@/public/Homepage/OurProjects/project6.png"
+import project7 from "@/public/Homepage/OurProjects/project7.png"
+import project8 from "@/public/Homepage/OurProjects/project8.png"
+
 const OurProjectsData = [
   {
-    projectImage: "Homepage/OurProjects/project1.webp",
+    projectImage: project1,
     projectTitle: "(1) AirPods Max: Redesign Project",
     projectType: "#web design",
     top: ["Case", "Website"],
   },
   {
-    projectImage: "Homepage/OurProjects/project2.webp",
+    projectImage: project2,
     projectTitle: "(2) Reflection: restaurant & bar",
     projectType: "#branding",
     top: ["Case"],
   },
   {
-    projectImage: "Homepage/OurProjects/project3.webp",
+    projectImage: project3,
     projectTitle: "(3) Sangens: Innovative Sauna Stoves",
     projectType: "#web design",
     top: ["Coming Soon", "Website"],
   },
   {
-    projectImage: "Homepage/OurProjects/project4.webp",
+    projectImage: project4,
     projectTitle: "(4) No Frame: Modernizing Package Design",
     projectType: "#branding",
     top: ["Case", "Website"],
   },
   {
-    projectImage: "Homepage/OurProjects/project5.webp",
+    projectImage: project5,
     projectTitle: "(5) Fullness: Company Profile",
     projectType: "#branding",
     top: ["Case"],
   },
   {
-    projectImage: "Homepage/OurProjects/project6.webp",
+    projectImage: project6,
     projectTitle: "(6) Olv is love: A Gen-Z Dating App",
     projectType: "#web design",
     top: ["Case", "Website"],
   },
   {
-    projectImage: "Homepage/OurProjects/project7.webp",
+    projectImage: project7,
     projectTitle: "(7) Flash Project: Revitalizing The Core",
     projectType: "#web design",
     top: ["Case", "Website"],
   },
   {
-    projectImage: "Homepage/OurProjects/project8.webp",
+    projectImage: project8,
     projectTitle: "(8) MeetCute: Dating App for Introverts",
     projectType: "#web design",
     top: ["Case"],

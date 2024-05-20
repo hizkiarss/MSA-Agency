@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
         <Image
           src={hero}
-          alt='project6.webp'
+          alt='project6.png'
           className=' md:h-[600px] w-full object-center object-cover h-[300px]'
         />
         <div className='w-full'>

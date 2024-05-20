@@ -1,10 +1,10 @@
 "use client"
 
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import React from "react"
 
 interface OurProjectsItemsProps {
-  projectImage: string
+  projectImage: StaticImageData
   projectTitle: string
   projectType: string
   top: string[]
@@ -30,7 +30,7 @@ const OurProjectsItems: React.FC<OurProjectsItemsProps> = ({
           )
         })}
       </div>
-      <Image src={projectImage} alt='project.jpg' />
+      <Image src={projectImage} alt='project.jpg' className='w-full' />
       <div className='flex justify-between text-[10px] md:text-[13px] mt-3 font-[300] tracking-tighter'>
         <p>{projectTitle}</p>
         <p className='text-gray-400'>{projectType}</p>
