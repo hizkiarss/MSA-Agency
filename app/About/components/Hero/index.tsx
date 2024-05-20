@@ -11,11 +11,18 @@ const Hero = () => {
           MSA Design Space • <br />
           is more than just a design agency.
         </h1>
-        <Image
-          src={hero}
-          alt='project6.png'
-          className=' md:h-[600px] w-full object-center object-cover h-[300px]'
-        />
+
+        <picture>
+          <source srcSet='Homepage/mobilehero.png' media='(max-width: 600px)' />
+          <source srcSet='About/milestone.png' media='(min-width: 601px)' />
+          <Image
+            src={hero}
+            alt='project6.png'
+            layout='responsive'
+            className=' md:h-[600px] w-full object-center object-cover h-[300px]'
+          />
+        </picture>
+
         <div className='w-full'>
           <p className='text-[35px] md:text-[55px] tracking-[-2px] leading-[40px] md:leading-[65px] w-full'>
             We&#39;re your partners in elevating brands worldwide, offering

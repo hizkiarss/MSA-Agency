@@ -1,8 +1,15 @@
 import React from "react"
 import imgtop from "@/public/Teams/imgtop.png"
 import Image from "next/image"
+import { useState } from "react"
 
 const Hero = () => {
+  const [loading, setLoading] = useState(true)
+
+  const handleImageLoad = () => {
+    setLoading(false)
+  }
+
   return (
     <section className='px-[15px] md:px-[100px] md:py-[100px]'>
       <div className='grid grid-rows md:gap-8'>
@@ -22,11 +29,23 @@ const Hero = () => {
           design, marketing, and content creation is dedicated to driving your
           digital success.
         </p>
-        <Image
-          src={imgtop}
-          alt='imgtop.png'
-          className='col-span-6 h-[300px] object-cover order-2 md:order-1'
-        />
+
+        <picture>
+          <source
+            srcSet='Teams/mobileteamshero.png'
+            media='(max-width: 600px)'
+          />
+          <source srcSet='About/milestone.png' media='(min-width: 601px)' />
+          <Image
+            src={imgtop}
+            alt='imgtop.png'
+            layout='responsive'
+            className={`col-span-6 h-[300px] object-cover order-2 md:order-1 ${
+              loading ? "" : ""
+            }`}
+            placeholder='blur'
+          />
+        </picture>
       </div>
     </section>
   )
