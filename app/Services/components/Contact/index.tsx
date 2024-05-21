@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
     <section id='contact' className='bg-[#F5F5F5] shadow-md pb-10'>
-      <div className='md:grid md:grid-cols-6 px-[15px] md:px-[30px] items-center pt-[100px] pb-[150px] rounded-b-[50px] bg-white shadow-md'>
+      <div className='md:grid md:grid-cols-6 px-[15px] md:px-[30px] items-center pt-[60px] md:pt-[100px] pb-[150px] rounded-b-[50px] bg-white shadow-md'>
         <div className='col-span-2 md:pr-10'>
           <div>
             <h2 className='text-[35px] md:text-[50px] tracking-tighter leading-[40px] md:leading-[65px] mb-5 md:mb-0'>
@@ -64,28 +64,28 @@ const Contact = () => {
 
           <div className='flex md:flex-col gap-2 mt-[12px] mb-[8px]'>
             <Link
-              className='bg-[#e3e3e3] px-4 py-[4px] rounded-full text-[12px] tracking-tight md:w-fit'
+              className='bg-[#e3e3e3] px-3 py-[4px] rounded-full text-[12px] tracking-tight md:w-fit'
               href='https://calendly.com/msa-design'
             >
               calendly:book a call
             </Link>
             <Link
-              className='bg-[#e3e3e3] px-4 py-[3px] rounded-full text-[12px] tracking-tight md:w-fit'
+              className='bg-[#e3e3e3] px-3 py-[4px] rounded-full text-[12px] tracking-tight md:w-fit'
               href='https://api.whatsapp.com/send/?phone=358408537203&text&app_absent=0'
             >
-              whatsapp: +358 40 8537203
+              WA: +358 40 8537203
             </Link>
           </div>
 
           <Link
-            className='bg-[#e3e3e3] px-4 py-[3px] rounded-full text-[12px] tracking-tight '
+            className='bg-[#e3e3e3] px-3 py-[4px] rounded-full text-[12px] tracking-tight md:w-fit'
             href='https://msadesign.space/msadesign.space@gmail.com'
           >
             email: msadesign.space@gmail.com
           </Link>
           <div className='flex gap-2 mt-[8px]'>
             <Link
-              className='bg-[#e3e3e3] px-4 py-[3px] rounded-full text-[12px] tracking-tight'
+              className='bg-[#e3e3e3] px-3 py-[4px] rounded-full text-[12px] tracking-tight md:w-fit'
               href='https://www.behance.net/msadesignspace'
             >
               behance

@@ -6,22 +6,18 @@ import Link from "next/link"
 const Hero = () => {
   return (
     <section className='px-[15px] md:px-[30px] pt-[50px] md:py-[100px]'>
-      <div className='flex flex-col gap-10 '>
-        <h1 className='tracking-tighter text-[45px] md:text-[70px] leading-[45px] md:leading-[70px]'>
+      <div className='flex flex-col gap-5 md:gap-10 relative'>
+        <h1 className='tracking-tighter text-[40px] md:text-[70px] leading-[40px] md:leading-[70px]'>
           MSA Design Space • <br />
           is more than just a design agency.
         </h1>
 
-        <picture>
-          <source srcSet='Homepage/mobilehero.png' media='(max-width: 600px)' />
-          <source srcSet='About/milestone.png' media='(min-width: 601px)' />
-          <Image
-            src={hero}
-            alt='project6.png'
-            layout='responsive'
-            className=' md:h-[600px] w-full object-center object-cover h-[300px]'
-          />
-        </picture>
+        <Image
+          src={hero}
+          alt='project6.png'
+          layout='responsive'
+          className=' md:!h-[600px] w-full object-center object-cover h-[300px]'
+        />
 
         <div className='w-full'>
           <p className='text-[35px] md:text-[55px] tracking-[-2px] leading-[40px] md:leading-[65px] w-full'>

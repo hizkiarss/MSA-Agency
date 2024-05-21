@@ -24,16 +24,16 @@ export const TeamDetails = ({
     <Cards>
       <div
         className={cn(
-          "grid grid-cols-2 md:grid-cols-3 md:px-[100px] md:py-10 mb-[100px]",
+          "grid grid-cols md:grid-cols-3 md:px-[100px] mt-7 md:mt-0 md:py-10 mb-[100px]",
           className
         )}
       >
         {items.map((item, idx) => (
-          <div key={idx}>
+          <div className='flex justify-center' key={idx}>
             <Link
               href={item?.link}
               key={item?.link}
-              className='relative group block p-2 h-full w-full'
+              className='relative group block p-2 h-full w-10/12 md:w-full'
               onMouseEnter={() => setHoveredIndex(idx)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -56,18 +56,18 @@ export const TeamDetails = ({
               </AnimatePresence>
               <Card className=''>
                 <Cards>
-                  <div className='grid grid-rows md:grid-rows-3 '>
-                    <div className='row-span-2'>
+                  <div className='flex gap-3 justify-center md:gap-0 md:grid md:grid-rows md:grid-rows-3 '>
+                    <div className='md:row-span-2'>
                       <Image
                         src={item.image}
                         alt={item.title}
                         width={50}
                         height={50}
                         objectFit='cover'
-                        className='rounded-xl md:h-[300px] !w-full object-cover'
+                        className='rounded-xl h-[75px] w-[100px] md:h-[300px] md:!w-full object-cover'
                       />
                     </div>
-                    <div className='row-span-1 grid grid-rows-2'>
+                    <div className='flex flex-col gap-2 md:gap-0 md:row-span-1 md:grid md:grid-rows-2'>
                       <CardTitle className='font-[400] text-[15px] md:text-[40px] text-black tracking-tight row-span-1'>
                         {item.title}
                       </CardTitle>
@@ -126,7 +126,9 @@ export const CardTitle = ({
   children: React.ReactNode
 }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4
+      className={cn("text-zinc-100 font-bold tracking-wide md:mt-4", className)}
+    >
       {children}
     </h4>
   )

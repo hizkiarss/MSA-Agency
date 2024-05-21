@@ -24,7 +24,7 @@ const WorkProcess = () => {
             <p className='text-[18px] tracking-tight'>(1) Branding projects</p>
             <Link
               href='Services#contact'
-              className='w-fit h-fit px-4 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[12px]'
+              className='w-fit h-fit px-2 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[10px]'
             >
               Start a project
             </Link>
@@ -65,7 +65,7 @@ const WorkProcess = () => {
                   </p>
 
                   <div className='flex flex-col gap-5 tracking-tight'>
-                    <div className=' flex flex-col gap-3'>
+                    <div className=' mt-5 md:mt-10 flex flex-col gap-3'>
                       <p className='text-[16px] md:text-[18px] '>
                         (1) Discovery & Analysis
                       </p>
@@ -159,14 +159,12 @@ const WorkProcess = () => {
         </div>
 
         <div className='md:grid md:grid-cols-6 mt-16 pt-10 border-t-2 border-gray-200'>
-          <div className=' flex flex-col gap-4 col-span-2'>
+          <div className='col-span-2'>
             <div className='flex md:flex-col justify-between md:justify-normal gap-4 mb-4 md:mb-0'>
-              <p className='text-[18px] tracking-tight'>
-                (2) Web Design projects
-              </p>
+              <p className='text-[17px] tracking-tight'>(2) Web Design</p>
               <Link
                 href='Services#contact'
-                className='w-fit h-fit px-4 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[12px]'
+                className='w-fit h-fit px-2 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[10px]'
               >
                 Start a project
               </Link>
@@ -204,7 +202,7 @@ const WorkProcess = () => {
                   </p>
 
                   <div className='flex flex-col gap-5 tracking-tight'>
-                    <div className=' flex flex-col gap-3'>
+                    <div className=' mt-5 md:mt-10 flex flex-col gap-3'>
                       <p className='md:text-[18px] text-[16px] '>
                         (1) Discovery & Analysis
                       </p>
