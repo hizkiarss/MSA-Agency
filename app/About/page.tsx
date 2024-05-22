@@ -3,7 +3,7 @@ import React from "react"
 import WhyChooseUs from "./components/WhyChooseUs"
 import Hero from "./components/Hero"
 import OurExperience from "./components/OurExperience"
-import Contact from "../services/components/Contact/index"
+import Contact from "../services/components/Contact"
 import Footer from "@/components/Footer"
 import Image from "next/image"
 
