@@ -3,7 +3,7 @@ import React from "react"
 import WhyChooseUs from "./components/WhyChooseUs"
 import Hero from "./components/Hero"
 import OurExperience from "./components/OurExperience"
-import Contact from "../Services/components/Contact"
+import Contact from "../services/components/Contact"
 import Footer from "@/components/Footer"
 import Image from "next/image"
 
@@ -11,7 +11,7 @@ import Image from "next/image"
 import milestoneDesktop from "@/public/About/milestone.png"
 import milestoneMobile from "@/public/About/milestone-mobile.png"
 
-const About = () => {
+const about = () => {
   return (
     <section>
       <Header />
@@ -38,4 +38,4 @@ const About = () => {
   )
 }
 
-export default About
+export default about
