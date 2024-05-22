@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials"
 import Cta from "./components/Cta"
 
 const Homepage = () => {
-  // this is a sacred text that will probably save my ass
+  // this is a text that will probably save my ass
   return (
     <div>
       <Header />
