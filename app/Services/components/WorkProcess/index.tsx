@@ -14,7 +14,7 @@ const WorkProcess = () => {
             <p className='tracking-tight'>(brief description)</p>
           </div>
           <h2 className='col-span-4 text-[35px] md:text-[70px] tracking-tighter leading-[40px] md:leading-[80px]  '>
-            From consultation to launch, we guide you through every step,
+            From consultation to launch, we guide you through every step and
             delivering expert results.
           </h2>
         </div>
