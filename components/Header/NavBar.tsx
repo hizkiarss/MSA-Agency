@@ -22,21 +22,21 @@ const NavBar = () => {
 
               <Link
                 className='flex items-center gap-2 hover:text-gray-400 transition-colors duration-300 ease-in-out '
-                href='/Services'
+                href='/services'
               >
                 Services
                 <AiOutlineArrowRight className='size-8 md:size-[55px]' />
               </Link>
               <Link
                 className='flex items-center gap-4 hover:text-gray-400 transition-colors duration-300 ease-in-out '
-                href='/About'
+                href='/about'
               >
                 About
                 <AiOutlineArrowRight className='size-8 md:size-[55px]' />
               </Link>
               <Link
                 className='flex items-center gap-4 hover:text-gray-400 transition-colors duration-300 ease-in-out '
-                href='/Teams'
+                href='/teams'
               >
                 Teams
                 <AiOutlineArrowRight className='size-8 md:size-[55px]' />
