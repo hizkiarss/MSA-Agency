@@ -33,7 +33,10 @@ const Hero = () => {
         </p>
 
         <picture className='md:col-span-6'>
-          <source media='(max-width: 600px)' />
+          <source
+            srcSet='Teams/mobileteamshero.png'
+            media='(max-width: 600px)'
+          />
           <Image
             src={imgtop}
             alt='imgtop.png'
