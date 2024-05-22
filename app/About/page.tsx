@@ -11,7 +11,7 @@ import Contact from "@/components/Contact"
 import milestoneDesktop from "@/public/About/milestone.png"
 // import milestoneMobile from "@/public/About/milestone-mobile.png"
 
-const about = () => {
+const About = () => {
   return (
     <section>
       <Header />
@@ -38,4 +38,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
