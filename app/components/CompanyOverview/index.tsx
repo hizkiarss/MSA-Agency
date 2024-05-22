@@ -11,7 +11,7 @@ import {
 import Image from "next/image"
 import project3 from "@/public/Homepage/OurProjects/project3.png"
 import project6 from "@/public/Homepage/OurProjects/project6.png"
-import { TeamDetails } from "@/app/Teams/components/TeamDetails"
+// import { TeamDetails } from "@/app/teams/components/TeamDetails"
 import useRandomTeam from "@/hooks/useRandomTeam"
 import Link from "next/link"
 import milestoneDesktop from "@/public/About/milestone.png"

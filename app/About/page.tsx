@@ -9,7 +9,7 @@ import Contact from "@/app/services/components/Contact"
 
 // Import images for different resolutions
 import milestoneDesktop from "@/public/About/milestone.png"
-import milestoneMobile from "@/public/About/milestone-mobile.png"
+// import milestoneMobile from "@/public/About/milestone-mobile.png"
 
 const about = () => {
   return (
