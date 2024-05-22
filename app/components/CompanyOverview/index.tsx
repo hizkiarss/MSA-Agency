@@ -137,7 +137,7 @@ const CompanyOverview = () => {
               </p>
 
               <Link
-                href='Services'
+                href='services'
                 className='bg-black text-white text-[8px] md:text-[16px] tracking-tight w-fit px-3 md:px-6 py-[1px] md:py-2 rounded-full '
               >
                 Learn More
@@ -179,7 +179,7 @@ const CompanyOverview = () => {
               </picture>
             </div>
             <Link
-              href='About'
+              href='about'
               className='bg-black rounded-full px-3 md:px-6 py-1 md:py-2 text-white text-[10px] md:text-[16px] tracking-tight'
             >
               See More
@@ -227,7 +227,7 @@ const CompanyOverview = () => {
                 </p>
                 <Link
                   className='bg-black text-white px-4 md:px-8 py-1 md:py-3 text-[12px] md:text-[20px] w-fit rounded-full'
-                  href='Teams'
+                  href='teams'
                 >
                   See More
                 </Link>

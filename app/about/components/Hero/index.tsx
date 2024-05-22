@@ -45,7 +45,7 @@ const Hero = () => {
             to bring your vision to life.
           </p>
           <Link
-            href='Services#contact'
+            href='services#contact'
             className='w-fit bg-black rounded-full px-4 py-[6px] text-[12px] text-white'
           >
             Start A Project

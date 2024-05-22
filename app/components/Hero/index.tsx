@@ -27,7 +27,7 @@ const Hero = () => {
           social media marketing design, art-direction
         </p>
         <Link
-          href='/Services#contact'
+          href='/services#contact'
           className='bg-black px-4 py-1 rounded-full text-white text-[13px]'
         >
           Start a project

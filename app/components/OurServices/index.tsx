@@ -43,7 +43,7 @@ const OurServices = () => {
           </div>
           <div className='flex justify-start md:justify-center items-end'>
             <Link
-              href='/Services#detail'
+              href='/services#detail'
               className='bg-white flex items-center  gap-[10px] md:gap-4 tracking-tighter rounded-full w-fit h-fit px-6 md:px-8 py-[4px] md:py-2 text-[15px] md:text-[25px] text-black'
             >
               Learn More

@@ -23,7 +23,7 @@ const WorkProcess = () => {
           <div className=' flex justify-between md:justify-normal items-end md:items-start md:flex-col gap-4 col-span-2 mb-4 md:mb-0'>
             <p className='text-[18px] tracking-tight'>(1) Branding projects</p>
             <Link
-              href='Services#contact'
+              href='services#contact'
               className='w-fit h-fit px-2 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[10px]'
             >
               Start a project
@@ -163,7 +163,7 @@ const WorkProcess = () => {
             <div className='flex md:flex-col justify-between md:justify-normal gap-4 mb-4 md:mb-0'>
               <p className='text-[17px] tracking-tight'>(2) Web Design</p>
               <Link
-                href='Services#contact'
+                href='services#contact'
                 className='w-fit h-fit px-2 md:px-8 py-1 md:py-2 bg-black text-white rounded-full text-[10px]'
               >
                 Start a project

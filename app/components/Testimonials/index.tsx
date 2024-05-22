@@ -53,7 +53,7 @@ const Testimonials = () => {
             services firsthand.
           </p>
           <Link
-            href='About'
+            href='about'
             className='bg-black text-white px-3 md:px-6 py-2 md:py-3 flex items-center gap-2 text-[10px] md:text-[15px] rounded-[16px]'
           >
             Learn More <AiOutlineArrowRight size={15} />
