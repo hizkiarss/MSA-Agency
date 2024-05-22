@@ -5,7 +5,7 @@ import React from "react"
 import useRandomTeam from "@/hooks/useRandomTeam"
 import Hero from "./components/Hero"
 import { TeamDetails } from "./components/TeamDetails"
-import Contact from "@/app/services/components/Contact"
+import Contact from "@/components/Contact"
 
 const Teams = () => {
   const { members } = useRandomTeam()

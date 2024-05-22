@@ -5,7 +5,7 @@ import Hero from "./components/Hero"
 import OurExperience from "./components/OurExperience"
 import Footer from "@/components/Footer"
 import Image from "next/image"
-import Contact from "@/app/services/components/Contact"
+import Contact from "@/components/Contact"
 
 // Import images for different resolutions
 import milestoneDesktop from "@/public/About/milestone.png"
