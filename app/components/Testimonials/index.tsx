@@ -1,33 +1,14 @@
 "use client"
 import { AiOutlineArrowRight } from "react-icons/ai"
-import React, { useEffect } from "react"
+import React from "react"
 import TestimonialsData from "@/utils/HomepageData/TestimonialsData"
 import TestimonialsItems from "./TestimonialsItems"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import Link from "next/link"
+import { responsive } from "@/utils/responsive"
 
 const Testimonials = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  }
-
   return (
     <section className='px-[30px] mb-[55px] md:mb-[130px] items-center flex flex-col md:grid md:grid-cols-2 gap-5'>
       <div className='col-span-1 grid grid-cols-1 gap-16 h-full mt-8'>

@@ -5,7 +5,7 @@ import { CiMenuBurger } from "react-icons/ci"
 import React, { useState } from "react"
 import NavBar from "./NavBar"
 import Image from "next/image"
-import Logo from "/Homepage/logo.svg"
+import Logo from "@/public/Homepage/logo.svg"
 import Link from "next/link"
 
 const Header = () => {
